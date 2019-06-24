@@ -1,0 +1,48 @@
+body {
+    margin-top: 
+    width: 600px;
+}
+
+h1 {
+    color:red;
+}
+
+p {
+    color: #3d67aa;
+}
+
+h1, p {
+    text-decoration: underline;
+    border: 1px solid black;
+}
+
+#chosen {
+    text-transform: uppercase;
+}
+
+.rotate {
+    transform: rotate(190deg);
+}
+
+p:hover{
+    font-weight: bold;
+}
+
+p::first-letter {
+    color: brown;
+    font-size: 2rem;
+}
+
+p::before,
+p::after {
+    content: '"';
+}
+
+div p{
+    text-transform: lowercase;
+}
+
+div::before,
+div::after {
+    content: '';
+}
